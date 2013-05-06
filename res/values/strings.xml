@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Yahtzee</string>
+
+	<!-- Yahtzee -->
+	<string name="one">One</string>
+	<string name="two">Two</string>
+	<string name="three">Three</string>
+	<string name="four">Four</string>
+	<string name="five">Five</string>
+	<string name="six">Six</string>
+	
+	<string name="three_of_a_kind">Three of a kind</string>
+	<string name="four_of_a_kind">Four of a kind</string>
+	<string name="small_straight">Small Straight</string>
+	<string name="large_straight">Large Straight</string>
+	<string name="yahtzee">Yahtzee</string>
+	<string name="full_house">Full House</string>
+	<string name="chance">Chance</string>		
+		
+    <!-- Main -->    
+    <string name="new_game">New game</string>
+    <string name="players">Players</string> 
+    <string name="resume">Resume game</string> 
+    <string name="highscores">Highscores</string>
+    <string name="toggle_sound">Enable sounds</string>    
+    
+    <!-- Game -->
+    <string name="roll">Roll</string>
+    <string name="next_player">Next player</string>  
+    <string name="result">Sum</string>
+    <string name="currentStep">Round</string>
+    
+     <!-- Results -->
+    <string name="results">Results</string>
+    <string name="high_scores">Highscores</string>
+    <string name="back">Back</string>
+</resources>

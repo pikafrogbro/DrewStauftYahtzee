@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/view">
+    <TextView android:text="@string/players" style="@style/title" />
+
+    <LinearLayout style="@style/player">
+	    <CheckBox android:id="@+id/player1CheckBox" style="@style/checkbox" />
+	    <EditText android:id="@+id/player1NameEditText" style="@style/fill" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/player">
+	    <CheckBox android:id="@+id/player2CheckBox" style="@style/checkbox" />
+	    <EditText android:id="@+id/player2NameEditText" style="@style/fill" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/player">
+	    <CheckBox android:id="@+id/player3CheckBox" style="@style/checkbox" />
+	    <EditText android:id="@+id/player3NameEditText" style="@style/fill" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/player">
+	    <CheckBox android:id="@+id/player4CheckBox" style="@style/checkbox" />
+	    <EditText android:id="@+id/player4NameEditText" style="@style/fill" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/stretched_content">
+        <LinearLayout style="@style/toggle">
+		    <CheckBox android:id="@+id/toggleSoundCheckBox" android:onClick="toggleSound" style="@style/checkbox" />
+		    <TextView android:id="@+id/toggleTextView" android:text="@string/toggle_sound" style="@style/toggle_text" />
+    	</LinearLayout>
+    </LinearLayout>
+    
+    <Button android:id="@+id/newGameButton" android:onClick="newGame" android:text="@string/new_game" style="@style/bottom_button" />
+    	
+   	<Button android:id="@+id/resumeButton" android:onClick="resumeGame" android:text="@string/resume" style="@style/bottom_button" />
+    	
+   	<Button android:text="@string/highscores" android:onClick="showHighscores" style="@style/bottom_button" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/view">
+    <TextView android:id="@+id/playerName" style="@style/title" />
+    	
+   	<LinearLayout android:id="@+id/dicesLinearLayout" style="@style/dices" />
+   	
+   	<ScrollView android:id="@+id/elementsScrollView"  style="@style/stretched_content">
+		<TableLayout android:id="@+id/elementsTableLayout" style="@style/fill" />
+	</ScrollView>
+    		
+	<LinearLayout style="@style/stats">    	
+	   	<TextView android:id="@+id/currentStepTextView" style="@style/current_step" />
+	    	 
+	    <TextView android:id="@+id/resultTextView" style="@style/result" />
+   	</LinearLayout>
+   	
+   	<LinearLayout style="@style/game_buttons">    	
+	   	<Button android:id="@+id/rollButton" android:onClick="rollDices" android:text="@string/roll" style="@style/game_button" />
+	    	 
+	    <Button android:id="@+id/nextPlayerButton" android:onClick="nextPlayer" android:text="@string/next_player" style="@style/game_button" />
+   	</LinearLayout>   	
+</LinearLayout>

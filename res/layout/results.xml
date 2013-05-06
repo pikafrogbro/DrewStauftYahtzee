@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/view">
+    <TextView android:id="@+id/resultsTitle" android:text="@string/results" style="@style/title" />
+    	
+   	<ScrollView android:id="@+id/resultsScrollView" style="@style/stretched_content">
+		<TableLayout android:id="@+id/resultsTableLayout" style="@style/fill" />
+	</ScrollView>
+	
+   	<Button android:onClick="back" android:text="@string/back" style="@style/bottom_button" />   	
+</LinearLayout>
